@@ -6,15 +6,15 @@ var burger = {
           cb(res);
         });
       },
-      create: function(objColVals, condition, cb) {
-        orm.create("burger", objColVals, condition, function(res){
-          cb(res)
-        });
-      },
-      update: function(condition, cb) {
-        orm.update("burger", condition, function(res) {
-          cb(res);
-        });
-      },
+//       create: function(objColVals, condition, cb) {
+//         orm.create("burger", objColVals, condition, function(res){
+//           cb(res)
+//         });
+//       },
+//       update: function(condition, cb) {
+//         orm.update("burger", condition, function(res) {
+//           cb(res);
+//         });
+//       },
 }
 module.exports = burger;
